@@ -1,6 +1,5 @@
----
 
-```markdown
+
 # Employee Management REST API (Go + PostgreSQL)
 
 A lightweight **RESTful API** built with **GoLang**, **Gorilla Mux**, **GORM**, and **PostgreSQL** for managing employee records.  
@@ -23,20 +22,20 @@ This project demonstrates clean code, modular design, and proper database integr
 
 employee-api/
 │
-├── main.go               # Entry point of the application
+├── main.go
 ├── go.mod
 ├── go.sum
 ├── .gitignore
 ├── README.md
-├── .env.example          # Sample environment variables
+├── .env.example
 ├── database/
-│   └── db.go             # Database connection setup
+│   └── db.go
 ├── models/
-│   └── employee.go       # Employee model
+│   └── employee.go 
 ├── handlers/
-│   └── employeeHandler.go # CRUD operations
+│   └── employeeHandler.go
 └── routes/
-└── routes.go         # API routing
+└── routes.go 
 
 ````
 
